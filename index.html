@@ -1,181 +1,455 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initialscale=1.0">
-        <link rel="stylesheet" href="">
-        <!--UNICONS-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <!-- SWIPER CSS-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <link rel="stylesheet" href="" />
+    <!--UNICONS-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- SWIPER CSS-->
 
-        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-        <title></title>
-    </head>
-    <body>
-        <!--header-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="" class="nav__logo">Hüseyin Mert</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">    
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user-circle nav__icon"></i> About 
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-info-alt nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#service" class="nav__link">
-                                <i class="uil uil-bag nav__icon"></i> Service
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-mountains-sun nav__icon"></i> Portfolio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
+    <title></title>
+  </head>
+  <body>
+    <!--header-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Hüseyin Mert</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user-circle nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-info-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#service" class="nav__link">
+                <i class="uil uil-bag nav__icon"></i> Service
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-mountains-sun nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--main-->
 
-                </div>
-                <div class="nav__btns">
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <!--main-->
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
 
-        <main class="main">
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin"></i>
-                            </a>
+              <a
+                href="https://www.hackerrank.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-hackerrank"></i>
+              </a>
 
-                            <a href="https://www.hackerrank.com/" target="_blank" class="home__social-icon">
-                                <i class="fa-brands fa-hackerrank"></i>
-                            </a>
-
-                            <a href="https://github.com/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github"></i>
-                            </a>
-
-                        </div>
-                        <div class="home_img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+            <div class="home_img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home_blob-img" x="1" y="18" xlink:href="assets/img/myphoto.png"/>
-                                </g>
-                            </svg>
-                            
-                        </div>
-                        
-                        <div class="home__data">
-                            <h1 class="home_title">Hello ! I'm Huseyin Mert Orak</h1>
-                            <h3 class="home_subtitle">Front End Developer</h3>
-                            <p class="home_description"> Knowledgeable, relevant, willing in Javascript, CSS, HTML <br>Experience in C++ <br> Base level of Python </p>
-                            <a href="#contact" class="button button--flex">
-                               Contact <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse home__scroll-mouse"></i> <!--Bu bölgeyi unutma.Birinci class'a dikkat et-->
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__Scroll-arrow"></i>
-                        </a>
-                    </div>
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-75"
+                    y="-75"
+                    xlink:href="assets/img/myphoto.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hello ! I'm Huseyin Mert Orak</h1>
+              <h3 class="home__subtitle">Front End Developer</h3>
+              <p class="home__description">
+                Knowledgeable, relevant, willing in Javascript, CSS, HTML
+                <br />Experience in C++ <br />
+                Base level of Python
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home_scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse home__scroll-mouse"></i>
+
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__Scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">My introduction</span>
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">Doldurulacak</p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  project</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name"
+                  >Companies <br />
+                  worked</span
+                >
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/CV.pdf"
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills sections" id="kills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--SKILLS-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__titles">Front-End Developer</h1>
+                  <span class="skills__subtitle">More than 1 Years</span>
                 </div>
-            </section>
 
-        </main>
-        
-        <!--footer-->
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
 
-        <!--scroll top-->
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">%80</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
 
-        <script src=""></script>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">%70</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
 
-        <script src="assets/js/main.js"></script>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Javascript</h3>
+                    <span class="skills__number">%60</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__javascript"></span>
+                  </div>
+                </div>
 
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">%50</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-plug skills__icon"></i>
 
+                <div>
+                  <h1 class="skills__titles">Embedded</h1>
+                  <span class="skills__subtitle">More than 1 Years</span>
+                </div>
 
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
 
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C</h3>
+                    <span class="skills__number">%80</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__c"></span>
+                  </div>
+                </div>
 
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C++</h3>
+                    <span class="skills__number">%80</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cplus"></span>
+                  </div>
+                </div>
 
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Proteus</h3>
+                    <span class="skills__number">%80</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__proteus"></span>
+                  </div>
+                </div>
 
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Altium</h3>
+                    <span class="skills__number">%70</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__altium"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
 
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--qualification content 1-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Mechanical Engineer</h3>
+                  <span class="qualification__subtitle"
+                    >Dokuz Eylul University</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2015-2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Student</h3>
+                  <span class="qualification__subtitle"
+                    >Tegmen Ali Riza Akinci High School</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2011-2015
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--qualification content 2-->
+            <div class="qualification__content" data-content id="work">
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Embedded Software Engineer
+                  </h3>
+                  <span class="qualification__subtitle">SUFAI</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Intern Engineer</h3>
+                  <span class="qualification__subtitle">YABGU</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020-2021
+                  </div>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Intern Engineer</h3>
+                  <span class="qualification__subtitle">DEMİRÖREN</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019-2020
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Intern Engineer</h3>
+                  <span class="qualification__subtitle">Atik</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2017-2018
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <!--footer-->
 
+    <!--scroll top-->
 
+    <script src=""></script>
 
+    <script src="assets/js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </html>
+    <!--CV içerisindeki experience kısmını yazılım ile ilgili yerleri yaz,mekanikle ilgili olan yerlerde projecelerinden bahset, Vakıflarda neler yaptığınla ilgili ufak biligiler ver-->
+  </body>
+</html>
